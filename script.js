@@ -7,7 +7,7 @@ form.addEventListener("submit", async(event) => {
   const formData = new FormData(form);
   const data = {
     name: formData.get("name"),
-    secondname: formData.get("secondName"),
+    secondName: formData.get("secondName"),
     phone: formData.get("phone"),
     email: formData.get("email"),
     agree: formData.get("agree") === 'on'
